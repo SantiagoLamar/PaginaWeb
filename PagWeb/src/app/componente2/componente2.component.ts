@@ -12,6 +12,9 @@ export class Componente2Component implements OnInit {
 
   ngOnInit(): void {
   }
+  Pag3 (){
+    this.router.navigate(['web3'])
+  }
   volver (){
     this.router.navigate([''])
   }
